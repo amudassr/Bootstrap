@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in bootstrap</title>
+    <!-- CSS link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Forms in bootstrap  -->
+
+    <div class="container">
+        <h2>Registration form</h2>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label"> Email</label>
+                <input type="email" placeholder="Enter your email" class="form-control" id="email">
+            </div>
+
+            <div class="mb-3">
+
+                <label for="password" class="form-label"> Password</label>
+                <input type="password" placeholder="Enter your password" class="form-control" id="password">
+            </div>
+
+            <div class="mb-3">
+                <label for="address" class="form-label"> Address</label>
+                <input type="text" placeholder="Enter your address" class="form-control" id="address">
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select" disabled>
+                    <option selected>select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
